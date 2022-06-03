@@ -70,7 +70,7 @@ function App() {
   useEffect(() => {});
   return (
     <div style={{ width: "500px", height: "100px" }}>
-      <DonutChart style={{ height: "100px", width: "100px" }} />
+      <DonutChart />
     </div>
   );
 }
