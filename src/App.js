@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Chart as ChartJS, ArcElement, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 
@@ -67,7 +67,6 @@ function DonutChart() {
   );
 }
 function App() {
-  useEffect(() => {});
   return (
     <div style={{ width: "500px", height: "100px" }}>
       <DonutChart />
